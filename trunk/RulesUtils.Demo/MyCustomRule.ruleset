@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="My Custom Rule Set" Description=" " ToolsVersion="11.0">
+  
+  <RuleHintPaths>
+    <Path>RulesUtils.Core.dll</Path>
+  </RuleHintPaths>
+  
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CR1000" Action="Warning" />
+  </Rules>
+</RuleSet>

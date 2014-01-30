@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Rules FriendlyName="Custom Rules Utilitary Tool">
-  
-  
-  
+  <Rule TypeName="EnforceProperNotation" Category="MyRules" CheckId="CR1000">
+    <Name>Enforce Proper Notation</Name>
+    <Description>Checks fields for compliance with proper notation.</Description>
+    <Resolution>Field {0} is not in the proper notation. Field name should be prefixed with '{1}'.</Resolution>
+    <MessageLevel Certainty="100">Warning</MessageLevel>
+    <FixCategories>NonBreaking</FixCategories>
+    <Url />
+    <Owner />
+    <Email />
+  </Rule>
 </Rules>

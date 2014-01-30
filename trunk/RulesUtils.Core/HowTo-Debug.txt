@@ -1,0 +1,33 @@
+1. Configure the project to launch an external program and enter in the path to FxCopCmd.exe. For example 
+C:\Program Files (x86)\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe
+
+--
+
+2. For command line arguments specify 
+/out:
+/file: 
+/rule:
+/D:
+
+/out:  - Specifies the file name for the analysis report, saved in XML. (e.g.: "results.xml")
+
+/file: - Specifies the target assembly to analyze. If you specificy a directory, the tool will analyze all .exe and .dll. (e.g.: "MyProject.dll")
+
+/rule: - Specifies the location of the rule library to load. If you specificy a directory, the tool will try to load all .dll. (e.g.: "MyRules.dll")
+
+/D:    - Specifies an additional directory to search for assembly dependencies, the tool always searches the target assembly directory and the current working directory. Can appear multiple times.
+
+Example:
+
+A final set of arguments could be
+
+/out:"results.xml" /file:"MyProject.dll" /rule:"MyRules.dll" /D:"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop"
+
+--
+
+3. Set the working directory to the build output folder. (e.g.: "C:\Projects\MyCustomRules\MyCustomRules\bin\Debug\" )
+
+
+Now you can to debug your custom rules by simply hitting F5 from your custom rules project. Try it
+
+Note: The result file, for the analysis report, wont appear in the build outpput folder if there are no rule violations.
