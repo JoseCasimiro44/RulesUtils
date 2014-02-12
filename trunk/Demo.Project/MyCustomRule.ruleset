@@ -2,7 +2,7 @@
 <RuleSet Name="My Custom Rule Set" Description=" " ToolsVersion="11.0">
   
   <RuleHintPaths>
-    <Path>./bin/Debug/RulesUtils.Core.dll</Path>
+    <Path>./bin/Debug/Demo.Rules.dll</Path>
   </RuleHintPaths>
   
   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
