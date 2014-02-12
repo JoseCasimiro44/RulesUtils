@@ -45,14 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EnforceProperNotationRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\BaseRule.cs" />
+    <Compile Include="Rules\EnforceProperNotationRule.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RulesUtils.Core\RulesUtils.Core.csproj">
       <Project>{825486e5-c859-4fb5-818a-9937abc69965}</Project>
       <Name>RulesUtils.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RuleMetadata.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

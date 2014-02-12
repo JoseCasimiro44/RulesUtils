@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RulesUtils.Core
+namespace Demo.Rules
 {
     public abstract class BaseRule : BaseIntrospectionRule
     {
-        public BaseRule(string ruleName)
-            : base(ruleName, "RulesUtils.Core.RuleMetadata", typeof(BaseRule).Assembly)
+        public BaseRule( string ruleName )
+            : base( ruleName, "Demo.Rules.RuleMetadata", typeof(BaseRule).Assembly )
         {
         }
     }

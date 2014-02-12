@@ -5,12 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RulesUtils.Core.Rules
+namespace Demo.Rules
 {
     public sealed class EnforceProperNotationRule : BaseRule
     {
-      private static int m_Foo;
-
         public EnforceProperNotationRule()
         : base( "EnforceProperNotation" )
         {
