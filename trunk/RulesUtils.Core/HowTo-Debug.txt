@@ -21,7 +21,7 @@ Example:
 
 A final set of arguments could be
 
-/out:"results.xml" /file:"MyProject.dll" /rule:"MyRules.dll" /D:"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop"
+/out:"results.xml" /file:"MyProject.dll" /rule:"MyRules.dll" /D:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\FxCop"
 
 --
 
