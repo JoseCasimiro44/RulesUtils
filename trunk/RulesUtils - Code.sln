@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesUtils.Core", "RulesUti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesUtils.Utils", "RulesUtils.Utils\RulesUtils.Utils.csproj", "{479673EA-BEF2-488B-AA91-0D841383B572}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Project", "Demo.Project\Demo.Project.csproj", "{4D0F6F5D-ED86-4159-9094-8A7ABD320EAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{479673EA-BEF2-488B-AA91-0D841383B572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{479673EA-BEF2-488B-AA91-0D841383B572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{479673EA-BEF2-488B-AA91-0D841383B572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0F6F5D-ED86-4159-9094-8A7ABD320EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0F6F5D-ED86-4159-9094-8A7ABD320EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0F6F5D-ED86-4159-9094-8A7ABD320EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0F6F5D-ED86-4159-9094-8A7ABD320EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
