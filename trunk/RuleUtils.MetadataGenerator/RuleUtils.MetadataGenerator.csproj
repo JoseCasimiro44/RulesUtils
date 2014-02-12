@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>67bbf876-2f3e-4ed7-878a-3c62d8f2215c</ProjectGuid>
+    <ProjectGuid>{0D381544-839B-4584-BF01-493D7174028D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RuleUtils.MetadataGenerator</RootNamespace>

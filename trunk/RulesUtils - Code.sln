@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Project", "Demo.Projec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Rules", "Demo.Rules\Demo.Rules.csproj", "{71B48678-D956-47BA-8694-1D226648E65B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleUtils.MetadataGenerator", "RuleUtils.MetadataGenerator\RuleUtils.MetadataGenerator.csproj", "{0D381544-839B-4584-BF01-493D7174028D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{71B48678-D956-47BA-8694-1D226648E65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71B48678-D956-47BA-8694-1D226648E65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71B48678-D956-47BA-8694-1D226648E65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D381544-839B-4584-BF01-493D7174028D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D381544-839B-4584-BF01-493D7174028D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D381544-839B-4584-BF01-493D7174028D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D381544-839B-4584-BF01-493D7174028D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
